@@ -1,0 +1,16 @@
+Author: Jeroen Schot <schot@a-eskwadraat.nl>
+Date: Fri Apr 18 11:27:21 CEST 2014
+Description: Fix man page formatting
+ - Some hyphens where a minus sign is intended.
+
+--- gawk-4.1.0.h+dfsg.orig/extension/filefuncs.3am
++++ gawk-4.1.0.h+dfsg/extension/filefuncs.3am
+@@ -148,7 +148,7 @@ if this field is present on your system.
+ \fBstatdata["pmode"]\fP
+ A human-readable version of the mode value, such as printed by
+ .IR ls (1).
+-For example, \fB"-rwxr-xr-x"\fP.
++For example, \fB"\-rwxr\-xr\-x"\fP.
+ .TP
+ \fBstatdata["linkval"]\fP
+ If the named file is a symbolic link, this element will exist
